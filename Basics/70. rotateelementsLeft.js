@@ -4,4 +4,7 @@
 
 let array = [1,2,3];
 
-console.log(array.reverse());
+array.push(array[0])
+array.shift()
+
+console.log(array);
